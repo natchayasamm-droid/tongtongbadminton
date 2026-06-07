@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "routes": [
+    {
+      "src": "/_server/(.*)",
+      "dest": "/_server/$1",
+      "check": true
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/",
+      "check": true
+    }
+  ]
+}
